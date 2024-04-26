@@ -1,0 +1,15 @@
+version: "2"
+authtoken: 
+tunnels:
+  aurdino:
+    addr: 5002
+    proto: http
+    host_header: localhost:5002
+    domain: pulkith.ngrok.app 
+    schemes:
+      - http
+  mobile:
+    addr: 5002
+    proto: http
+    host_header: localhost:5002
+    domain: pulkith.ngrok.app 
